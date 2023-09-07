@@ -1,0 +1,52 @@
+
+/* UNIVERSAL SELECTOR
+purre web ko same kar dega
+usE: *{
+    
+} AISE USE KAR SKATE HAI
+*/
+/* ELEMENT SELECTOR */
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+
+}
+body{
+    background-color: rgb(84, 79, 79);
+}
+button{
+    color: #ffff00;
+    background-color: rgb(145, 144, 40);
+}
+/* id SELECTOR 
+individual cheeze le liye id ka pryug hota hai 
+use: id="" wherever we want to use
+*/
+#head1{
+    color:cornflowerblue;
+    
+}
+/* CLASS SELECTOR 
+jab do cheezzo ko ek hi property deni ho to classka use karte hai 
+
+*/
+.me{
+    color:blue;
+}
+#box{
+  background-color:blue
+}
+/* text properties */
+/* by default text iss  left align */
+p{
+    text-align: center;
+    font-family:roboto;
+    line-height: 20px;
+    text-transform: capitalize;
+    /*font-size:smaller;*/
+}
+a{
+    color: black;
+}
