@@ -7,14 +7,20 @@
   <title>Flex Direction</title>
   <style>
     .container {
+      width: 100%;
+      height: 70hv;
       color: white;
       border: 5px solid gold;
-      display: inline-flex;
-      flex-direction: column;
+      display:inline-flex;
+      flex-direction: row;
     }
 
     .container > * {
-      flex-basis: 100px;
+      width: 100%;
+      flex-basis: 500px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .red {
@@ -49,7 +55,7 @@
 
 <body>
   
-  <a href="https://www.google.com" ><img src="./goal.png"</a>
+
   <div class="container">
     <div class="red">Red</div>
     <div class="orange">Orange</div>
